@@ -16,7 +16,7 @@ router.get('/:id',getId);
 // Creting a Product 
 router.post('/create',create);
 // Deleting a Product
-router.post('/:id',deleteId);
+router.delete('/:id',deleteId);
 // Updating a Specific Document Field in Mongo DB
 router.post('/:id/update_quantity',updateProduct);
 

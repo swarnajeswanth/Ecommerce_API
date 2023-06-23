@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Inventory</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <div class="main_Container">
+        <header>
+            <h2>PRODUCT CREATION FORM</h2>
+        </header>
+        <main>
+            <h3>PRODUCT</h3>
+            <form action="/products/create" method="post">
+                <div class="input">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <input type="text" name="name" placeholder="Product_Name..">
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-scale-unbalanced"></i>
+                    <input type="text" name="quantity" placeholder="Quantity..">
+                </div>
+                <input type="submit" value="Create_Product">
+            </form>
+            <div class="redirect">
+                <i class="fa-solid fa-link"></i>
+                <a href="/products">Products_Inventory</a> 
+            </div>
+            
+        </main>
+        <footer>
+            <p><i class="fa-solid fa-copyright"></i> 2023 Product Inventory Form. All Rights Reserved | Designed by Swarna_Jeswanth</p>
+        </footer>
+    </div>
+</body>
+</html>
